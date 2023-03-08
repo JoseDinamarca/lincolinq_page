@@ -15,6 +15,7 @@
     "@fortawesome/vue-fontawesome": "^3.0.3",
     "@jambonn/vue-concise-carousel": "^2.1.29",
     "core-js": "^3.6.5",
+    "serve": "^14.2.0",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0"
   },
