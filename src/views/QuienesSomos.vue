@@ -1,18 +1,24 @@
 <template>
   <div>
-    <h1>Descripción de la empresa</h1>
+    <h1>¿Quiénes somos?</h1>
     <a
-      >Dev&Pro es una empresa formada a finales del año 2022, con la intención
-      de proporcionar nuevas soluciones a las personas de la región que pudiesen
-      necesitar de algún software informático.</a
+      >Dev&Pro es una consultora informática localizada en la region del maule
+      enfocada en el desarrollo de software de escritorio y servicios web.
+      Comprometidos con la región, nuestro objetivo es entregar soluciones
+      informáticas manofacturadas a la medida en base a las necesidades de los
+      cliente para un mejor servicio.</a
     ><br />
-    <h1>Misión</h1>
+    <h1>Nuestra misión</h1>
     <a
-      >Diseñar software a medida bajo los requerimientos de nuestros clientes,
-      buscando la mayor satisfacción posible para ellos.</a
+      >Desarrollar software a la medida en base a las necesidades del cliente
+      con fin de generar oportunidades de crecimiento mediante la digitalización
+      de sus proyectos, centrándonos en el futuro para impulsar el crecimiento
+      de pequeñas y grandes empresas.</a
     ><br />
-    <h1>Visión</h1>
-    <a>Dev&Pro busca ser la empresa líder en el desarrollo de la región.</a
+    <h1>Nuestra visión</h1>
+    <a
+      >Ser un pilar de la informática, generando oportunidades de crecimiento e
+      impulsando nuestra región mediante nuestra labor.</a
     ><br />
     <h1>Compromiso con la región</h1>
     <a

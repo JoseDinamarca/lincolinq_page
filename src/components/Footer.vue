@@ -9,15 +9,11 @@
           >Preguntas frecuentes</router-link
         >
       </li>
-    </ul>
-    <ul>
       <li>
-        <font-awesome-icon icon="fa-regular fa-envelope" /> Correo:
-        contacto@consultoradevpro.cl
-      </li>
-      <li>
-        <font-awesome-icon icon="fa-brands fa-instagram" /> Instagram:
-        https://www.instagram.com/devpro.consultora/
+        <a
+          ><font-awesome-icon icon="fa-regular fa-envelope" /> Correo:
+          contacto@consultoradevpro.cl</a
+        >
       </li>
     </ul>
   </footer>
@@ -28,10 +24,12 @@ ul {
   list-style-type: none;
   padding: 0;
 }
+
 li {
   display: inline-block;
   margin: 0 10px;
 }
+
 footer {
   border-top: 1px solid rgb(0, 0, 0);
 }
