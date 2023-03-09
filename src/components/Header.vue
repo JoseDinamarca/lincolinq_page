@@ -63,7 +63,10 @@
             </router-link>
           </div>
           <div class="col-md">
-            <router-link to="/" style="color: white; text-decoration: none">
+            <router-link
+              to="/sitio_construccion"
+              style="color: white; text-decoration: none"
+            >
               <strong>Blog</strong>
             </router-link>
           </div>

@@ -2,7 +2,7 @@
   <footer>
     <ul>
       <li>
-        <router-link to="/quienes_somos">Quienes somos</router-link>
+        <router-link to="/sobre_nosotros">Sobre nosotros</router-link>
       </li>
       <li>
         <router-link to="/preguntas_frecuentes"
