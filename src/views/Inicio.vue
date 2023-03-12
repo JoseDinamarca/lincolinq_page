@@ -1,12 +1,12 @@
 <template>
-  <div style="background: #fcfcd5">
+  <div>
     <br />
     <br />
     <Carousel />
     <h1>¿Quiénes somos?</h1>
-    <div class="row">
-      <div class="col-md-6 col-4 align-items-center"></div>
-      <div class="col-md-6 col-4 align-items-center">
+    <div class="row justify-content-around w-100">
+      <div class="col-md-5"></div>
+      <div class="col-md-5 col-4 align-items-center box-info">
         <a
           >Dev&Pro es una consultora informática localizada en la región del
           Maule enfocada en el desarrollo de software de escritorio y servicios
@@ -17,8 +17,8 @@
       </div>
     </div>
     <h1>Digitalización de tu PYME</h1>
-    <div class="row">
-      <div class="col-md-6 col-4 align-items-center">
+    <div class="row justify-content-around w-100">
+      <div class="col-md-5 col-4 align-items-center box-info">
         <a
           >Nuestro país posee una gran cantidad de emprendedores el cual nos
           posiciona en un escenario áltamente competitivo dentro de los
@@ -41,13 +41,13 @@
           ></a
         >
       </div>
-      <div class="col-md-6 col-4 align-items-center"></div>
+      <div class="col-md-5 col-4 align-items-center"></div>
     </div>
     <br />
     <h1>Compromiso con la región</h1>
-    <div class="row">
-      <div class="col-md-6 col-4 align-items-center"></div>
-      <div class="col-md-6 col-4 align-items-center">
+    <div class="row justify-content-around w-100">
+      <div class="col-md-5 col-4 align-items-center"></div>
+      <div class="col-md-5 col-4 align-items-center box-info">
         <a
           >En Dev&Pro nos comprometemos a dar impulso a los proyectos que se
           desean realizar dentro de la región del Maule, con la intención de que
@@ -58,8 +58,7 @@
           clientes la mejor solución posible para su problema, con la intención
           de no generar mayores problemas al entregar una solución que no se
           ajuste a sus necesidades, procurando informarles siempre cuales son
-          las mejores opciones, a nuestro parecer, para solventar sus
-          necesidades como PYME.</a
+          las mejores opciones para solventar sus necesidades como PYME.</a
         >
       </div>
     </div>
@@ -86,5 +85,11 @@ div {
 
 h1 {
   text-align: center;
+}
+
+.box-info {
+  padding: 40px 0;
+  box-shadow: 0px 0px 27px 0px rgb(153, 152, 152);
+  border-radius: 15px;
 }
 </style>

@@ -1,19 +1,19 @@
 <template>
   <header>
     <div class="header">
-      <div class="row justify-content-between">
-        <div class="col-md-3 col-4 d-flex align-items-center">
+      <div class="row justify-content-between w-100">
+        <div class="col-md-4">
           <router-link class="header-brand" to="/">
             <img alt="logo" src="../assets/logo_devpro.png" />
           </router-link>
         </div>
-        <div class="col-md-2 col-4 align-items-center">
+        <div class="col-md-2" style="margin-top: auto;">
           <ul>
             <li>
               <a
                 href="https://www.instagram.com/devpro.consultora/"
                 target="_blank"
-                style="color: rgb(0, 110, 255)"
+                style="color: rgb(0, 110, 255);"
                 ><font-awesome-icon icon="fa-brands fa-instagram" size="3x"
               /></a>
             </li>
@@ -22,7 +22,7 @@
                 href="https://www.facebook.com/profile.php?id=100090508094513"
                 target="_blank"
                 style="color: rgb(0, 110, 255)"
-                ><font-awesome-icon icon="fa-brands fa-facebook" size="3x"
+                ><font-awesome-icon icon="fa-brands fa-square-facebook" size="3x"
               /></a>
             </li>
           </ul>
@@ -40,7 +40,7 @@
           </div>
           <div class="col-md">
             <router-link
-              to="/productos_servicios"
+              to="/sitio_construccion"
               style="color: white; text-decoration: none"
             >
               <strong>Productos y Servicios</strong>
@@ -56,7 +56,7 @@
           </div>
           <div class="col-md">
             <router-link
-              to="/contactanos"
+              to="/sitio_construccion"
               style="color: white; text-decoration: none"
             >
               <strong>Contáctanos</strong>
