@@ -1,5 +1,8 @@
 <template>
   <div>
+    <Construccion />
+    <!--
+  <div>
     <h1>Compromiso con la región</h1>
     <a
       >En Dev&Pro nos comprometemos a dar impulso a los proyectos que se desean
@@ -12,5 +15,16 @@
       con la intención de ser de alguna manera una ayuda para su crecimiento
       dentro de su rubro.</a
     >
+  </div>-->
   </div>
 </template>
+
+<script>
+import Construccion from "../components/Construccion.vue";
+
+export default {
+  components: {
+    Construccion,
+  },
+};
+</script>

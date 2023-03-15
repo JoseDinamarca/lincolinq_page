@@ -3,10 +3,22 @@
     <br />
     <br />
     <Carousel />
-    <h1>¿Quiénes somos?</h1>
-    <div class="row justify-content-around w-100">
-      <div class="col-md-5"></div>
-      <div class="col-md-5 col-4 align-items-center box-info">
+    <br />
+    <div
+      class="row justify-content-around w-auto box-info"
+      style="margin: 12px"
+    >
+      <h3>¿Quiénes somos?</h3>
+      <br />
+      <br />
+      <div class="col-md-5 col-4 align-self-center">
+        <img
+          alt="Quienes somos"
+          src="../img/quienes_somos.png"
+          class="responsive"
+        />
+      </div>
+      <div class="col-md-5 col-4 align-self-center justify">
         <a
           >Dev&Pro es una consultora informática localizada en la región del
           Maule enfocada en el desarrollo de software de escritorio y servicios
@@ -16,9 +28,15 @@
         >
       </div>
     </div>
-    <h1>Digitalización de tu PYME</h1>
-    <div class="row justify-content-around w-100">
-      <div class="col-md-5 col-4 align-items-center box-info">
+    <br />
+    <div
+      class="row justify-content-around w-auto box-info"
+      style="margin: 12px"
+    >
+      <h3>Digitalización de tu PYME</h3>
+      <br />
+      <br />
+      <div class="col-md-5 col-4 align-self-center justify">
         <a
           >Nuestro país posee una gran cantidad de emprendedores el cual nos
           posiciona en un escenario áltamente competitivo dentro de los
@@ -41,13 +59,30 @@
           ></a
         >
       </div>
-      <div class="col-md-5 col-4 align-items-center"></div>
+      <div class="col-md-5 col-4 align-self-center">
+        <img
+          alt="Digitalización de tu PYME"
+          src="../img/quienes_somos.png"
+          class="responsive"
+        />
+      </div>
     </div>
     <br />
-    <h1>Compromiso con la región</h1>
-    <div class="row justify-content-around w-100">
-      <div class="col-md-5 col-4 align-items-center"></div>
-      <div class="col-md-5 col-4 align-items-center box-info">
+    <div
+      class="row justify-content-around w-auto box-info"
+      style="margin: 12px"
+    >
+      <h3>Compromiso con la región</h3>
+      <br />
+      <br />
+      <div class="col-md-5 col-4 align-self-center">
+        <img
+          alt="Compromiso con la región"
+          src="../img/quienes_somos.png"
+          class="responsive"
+        />
+      </div>
+      <div class="col-md-5 col-4 align-self-center justify">
         <a
           >En Dev&Pro nos comprometemos a dar impulso a los proyectos que se
           desean realizar dentro de la región del Maule, con la intención de que
@@ -79,7 +114,7 @@ export default {
 </script>
 
 <style>
-div {
+.justify {
   text-align: justify;
 }
 
@@ -88,8 +123,13 @@ h1 {
 }
 
 .box-info {
-  padding: 40px 0;
+  padding: 30px 0;
   box-shadow: 0px 0px 27px 0px rgb(153, 152, 152);
   border-radius: 15px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
 </style>

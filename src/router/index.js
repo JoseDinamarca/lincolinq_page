@@ -5,7 +5,6 @@ import ApoyoPymes from '../views/ApoyoPymes.vue'
 import Contactanos from '../views/Contactanos.vue'
 import SobreNosotros from '../views/SobreNosotros.vue'
 import PreguntasFrecuentes from '../views/PreguntasFrecuentes.vue'
-import Construccion from '../views/Construccion.vue'
 
 const routes = [
   {
@@ -37,11 +36,6 @@ const routes = [
     path: '/preguntas_frecuentes',
     name: 'preguntasfrecuentes',
     component: PreguntasFrecuentes
-  },
-  {
-    path: '/sitio_construccion',
-    name: 'sitioconstruccion',
-    component: Construccion
   },
   {
     path: '/:pathMatch(.*)*',

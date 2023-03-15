@@ -7,7 +7,11 @@
             <h5 style="color: white"><strong>Ayuda al cliente</strong></h5>
           </li>
           <br />
-          <li>
+          <li
+            @mouseover="hover1 = true"
+            @mouseleave="hover1 = false"
+            :class="{ activo: hover1 }"
+          >
             <router-link
               to="/sobre_nosotros"
               style="color: white; text-decoration: none"
@@ -15,7 +19,11 @@
             >
           </li>
           <br />
-          <li>
+          <li
+            @mouseover="hover2 = true"
+            @mouseleave="hover2 = false"
+            :class="{ activo: hover2 }"
+          >
             <router-link
               to="/preguntas_frecuentes"
               style="color: white; text-decoration: none"
@@ -30,7 +38,11 @@
             <h5 style="color: white"><strong>Contáctanos</strong></h5>
           </li>
           <br />
-          <li>
+          <li
+            @mouseover="hover3 = true"
+            @mouseleave="hover3 = false"
+            :class="{ activo: hover3 }"
+          >
             <a
               href="https://www.instagram.com/devpro.consultora/"
               target="_blank"
@@ -39,7 +51,11 @@
             >
           </li>
           <br />
-          <li>
+          <li
+            @mouseover="hover4 = true"
+            @mouseleave="hover4 = false"
+            :class="{ activo: hover4 }"
+          >
             <a
               href="https://www.facebook.com/profile.php?id=100090508094513"
               target="_blank"
@@ -49,7 +65,11 @@
             >
           </li>
           <br />
-          <li>
+          <li
+            @mouseover="hover5 = true"
+            @mouseleave="hover5 = false"
+            :class="{ activo: hover5 }"
+          >
             <a style="color: white; text-decoration: none"
               ><font-awesome-icon icon="fa-regular fa-envelope" />
               contacto@consultoradevpro.cl</a
@@ -65,7 +85,12 @@
               Teléfonos</strong
             >
           </h5>
-          <li style="margin: 0">
+          <li
+            style="margin: 0"
+            @mouseover="hover6 = true"
+            @mouseleave="hover6 = false"
+            :class="{ activo: hover6 }"
+          >
             <a
               href="https://api.whatsapp.com/send/?phone=56926493333"
               target="_blank"
@@ -74,7 +99,12 @@
             >
           </li>
           <br />
-          <li style="color: white; margin: 0">
+          <li
+            style="color: white; margin: 0"
+            @mouseover="hover7 = true"
+            @mouseleave="hover7 = false"
+            :class="{ activo: hover7 }"
+          >
             <a
               href="https://api.whatsapp.com/send/?phone=56926459314"
               target="_blank"
@@ -83,7 +113,12 @@
             >
           </li>
           <br />
-          <li style="color: white; margin: 0">
+          <li
+            style="color: white; margin: 0"
+            @mouseover="hover8 = true"
+            @mouseleave="hover8 = false"
+            :class="{ activo: hover8 }"
+          >
             <a
               href="https://api.whatsapp.com/send/?phone=56991843822"
               target="_blank"
@@ -119,4 +154,25 @@ footer {
   border-top: 1px solid rgb(0, 0, 0);
   background-color: gray;
 }
+
+.activo {
+  text-decoration: underline;
+}
 </style>
+
+<script>
+export default {
+  data() {
+    return {
+      hover1: false,
+      hover2: false,
+      hover3: false,
+      hover4: false,
+      hover5: false,
+      hover6: false,
+      hover7: false,
+      hover8: false,
+    };
+  },
+};
+</script>
