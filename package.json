@@ -16,6 +16,8 @@
     "@jambonn/vue-concise-carousel": "^2.1.29",
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
+    "bootstrap-icons-vue": "^1.10.3",
     "core-js": "^3.6.5",
     "serve": "^14.2.0",
     "vue": "^3.0.0",
