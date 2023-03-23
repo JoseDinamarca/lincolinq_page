@@ -34,11 +34,12 @@
 
         <!-- elementos del menu colapsable -->
 
-        <div class="collapse navbar-collapse" id="menu"  
+        <div class="collapse navbar-collapse "  id="menu"  
         style="
       --  background: #1c89ff;
       -- border-bottom-left-radius: 30%;
        ">
+        <hr class="d-md-none d-lg-block ">
           <ul class="navbar-nav mx-auto" >
             <li class="nav-item">
               <router-link to="/" class="nav-link active" 
@@ -70,8 +71,9 @@
 
           <!-- enlaces redes sociales -->
           
-          <hr class="d-md-none ">
-          <hr style="
+          <hr class="d-md-none d-lg-block">
+          <hr class="d-none d-md-block"
+          style="
           border:         none;
     border-left:    1px solid hsla(200, 10%, 50%,100);
     height:         7vh;

@@ -3,12 +3,11 @@
   <div id="" class="carousel slide" data-bs-ride="carousel">
  
     <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="../assets/carousel_1.jpg" style="position: static" class="d-block w-100" alt="...">
+      <div class="carousel-item active">
+        <img src="../assets/carousel_1.jpg" style="position: static" class="d-block w-100" alt="...">
+      </div>
     </div>
-    
   </div>
-</div>
 
 </template>
 

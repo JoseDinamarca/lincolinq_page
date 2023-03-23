@@ -8,7 +8,7 @@
       class="row justify-content-around w-auto box-info"
       style="margin: 12px"
     >
-      <h3>¿Quiénes somos?</h3>
+      <h3 style="color: #1c89ff;">¿Quiénes somos?</h3>
       <br />
       <br />
       <div class="col-md-5 col-4 align-self-center">
