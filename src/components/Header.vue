@@ -1,14 +1,24 @@
 <template>
-  <header style="background: #1c89ff;
-       border-bottom-left-radius: 90%;
-       ">
+  <header  >
     <!-- Inicio del menú -->
 
-    <nav class="navbar navbar-expand-md navbar-light " 
+    <nav class="navbar navbar-expand-md navbar-light  "
+    style="background:linear-gradient(to right, #1c89ff, #4dffd3)"
        >
-      <div class="container-fluid"  >
+      <div class="container-fluid" 
+      style="
+      background: white;
+      --background:linear-gradient(to right,white, white, #4dffd3);
+      --border-bottom-left-radius: 0%;
+      --border-top-left-radius: 0%;
+      --border-bottom-right-radius: 10%;
+      --border-top-right-radius: 10%
+"        >
         <!-- icono -->
-        <a class="navbar-brand" tyle="background:red;" href="#">
+        <a class="navbar-brand" tyle="background:red;" href="#" 
+        style="
+        background:;
+      ">
           <img  class="img-fluid d-inline-block align-text-top" width="380" alt="logo" src="../img/logo_devpro.png" />
         </a>
 
@@ -24,30 +34,35 @@
 
         <!-- elementos del menu colapsable -->
 
-        <div class="collapse navbar-collapse" id="menu" >
-          <ul class="navbar-nav ms-auto" >
+        <div class="collapse navbar-collapse" id="menu"  
+        style="
+      --  background: #1c89ff;
+      -- border-bottom-left-radius: 30%;
+       ">
+          <ul class="navbar-nav mx-auto" >
             <li class="nav-item">
-              <router-link to="/" class="nav-link active" style="color: white;" >
+              <router-link to="/" class="nav-link active" 
+             >
                 Inicio
               </router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/productos_servicios" class="nav-link" style="color: white;" >
+              <router-link to="/productos_servicios" class="nav-link"  >
                 Productos y Servicios
               </router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/apoyo_pymes" class="nav-link"  style="color: white;">
+              <router-link to="/apoyo_pymes" class="nav-link" >
                 Apoyo a PYMES
               </router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/contactanos" class="nav-link" style="color: white;" >
+              <router-link to="/contactanos" class="nav-link" >
                 Contáctanos
               </router-link>
             </li>
             <li class="nav-item" >
-              <router-link to="/blog" class="nav-link" style="color: white;">
+              <router-link to="/blog" class="nav-link" >
                 Blog
               </router-link>
             </li>
@@ -56,6 +71,12 @@
           <!-- enlaces redes sociales -->
           
           <hr class="d-md-none ">
+          <hr style="
+          border:         none;
+    border-left:    1px solid hsla(200, 10%, 50%,100);
+    height:         7vh;
+    width:          1px;
+          ">
           <ul class="navbar-nav  flex-row flex-wrap " >    
               <li class="nav-item col-5 col-md-auto p-3">
                 <a href="https://www.instagram.com/devpro.consultora/"
