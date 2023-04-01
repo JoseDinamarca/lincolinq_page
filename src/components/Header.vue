@@ -2,7 +2,7 @@
   <header>
 
     <!--Header: topbar -->
-    <nav class="navbar navbar-expand-lg navbar-light topbar " id="menu_topbar">
+    <nav class="navbar navbar-expand-lg navbar-light topbar" id="menu_topbar">
       <div class="container-fluid">
         <div class="mx-auto">
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -37,10 +37,10 @@
     <!-- Header: topbar -->
 
     <!-- Header: navbar --> 
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav class="navbar navbar-expand-md navbar-light ">
       <div class="container-fluid align-items-center" > 
         <!-- logo -->
-        <router-link to="/" class="navbar-brand" style="margin-left: 300px;">
+        <router-link to="/" class="navbar-brand" style="">
                 <img class="img-fluid d-inline-block align-text-top"  width="230" alt="logo" src="../img/logo_devpro.png" />
         </router-link>
         <!-- fin logo -->
@@ -60,7 +60,7 @@
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
               <router-link to="/" class="nav-link navbar-element">
-                Inicio
+                Inicios
               </router-link>
             </li>
             <li class="nav-item ">
@@ -85,7 +85,7 @@
             </li>
           </ul>
           <!-- fin enlaces redes sociales -->
-         </div>
+         </div> 
         </div>
     </nav>
 </header>
