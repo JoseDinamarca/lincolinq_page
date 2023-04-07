@@ -1,9 +1,15 @@
 <template>
   <div>
-    <br />
-    <br />
     <Carousel />
-    <br />
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <div
       class="row justify-content-around w-auto box-info"
       style="margin: 12px"

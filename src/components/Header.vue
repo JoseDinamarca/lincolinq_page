@@ -37,11 +37,11 @@
     <!-- Header: topbar -->
 
     <!-- Header: navbar --> 
-    <nav class="navbar navbar-expand-md navbar-light ">
+    <nav class="navbar navbar-expand-md navbar-light navbar-n">
       <div class="container-fluid align-items-center" > 
         <!-- logo -->
-        <router-link to="/" class="navbar-brand" style="">
-                <img class="img-fluid d-inline-block align-text-top"  width="230" alt="logo" src="../img/logo_devpro.png" />
+        <router-link to="/" class="navbar-brand logo" style="" >
+                <img style="" class="img-fluid d-inline-block align-text-top"  width="230" alt="logo" src="../img/logo_devpro.png" />
         </router-link>
         <!-- fin logo -->
         <!-- boton del menu -->
@@ -60,7 +60,7 @@
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
               <router-link to="/" class="nav-link navbar-element">
-                Inicios
+                Inicio
               </router-link>
             </li>
             <li class="nav-item ">
@@ -79,7 +79,7 @@
               </router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/blog" class="nav-link navbar-element" >
+              <router-link to="/blog" class="nav-link " >
                 Blog
               </router-link>
             </li>
@@ -93,13 +93,21 @@
 </template>
 
 <style scoped>
-/*Header*/
+/*Header    border-style: solid;
+*/
+
+
+
+
+
+
+
 
 /*Header: topbar*/
 .topbar{
   background: #4788ff ;
   background: linear-gradient(72deg, rgba(0,127,255,1) 14%, rgba(0,120,241,1) 55%, rgba(0,89,255,1) 75%, rgba(0,212,255,1) 100%); 
-  font-size: .89rem;
+  font-size: .8rem;
   
 }
 
@@ -107,7 +115,6 @@
   font-family: sourcesanspro;
   color: white;
   margin-right: 30px;
-  --border-style: solid;
 }
 
 .topbar > div > div > div > div .instagram:before,
@@ -120,6 +127,8 @@ background: rgb(254, 254, 255);
 font-size: 0.9rem;  
 color: #cc2366;
 border-radius: 30px;
+font-size: .8rem;
+
 }
 
 .topbar > div > div > div > div .instagram:hover{
@@ -127,24 +136,24 @@ border-radius: 30px;
 background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
 background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
 background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-font-size: 0.9rem;  
+font-size: .8rem;
 color: white;
 border-radius: 30px;
 }
 
 .topbar > div > div > div > div .facebook{
 background: rgb(254, 254, 255); 
-font-size: 0.9rem;  
+font-size: .8rem;
 color: #3C5A99;
 border-radius: 30px;
 }
-
+  
 .topbar > div > div > div > div .facebook:hover{
   background-color: #3C5A99;
     background: -moz-linear-gradient(top, #3C5A99, #3C5A99);
     background: -ms-linear-gradient(top, #3C5A99, #3C5A99);
     background: -webkit-linear-gradient(top, #3C5A99, #3C5A99);
-font-size: 0.9rem;  
+    font-size: .8rem;
 color: white;
 border-radius: 30px;
 }
@@ -152,10 +161,18 @@ border-radius: 30px;
 
 
 /*Header: navbar*/
-.navbar{
+
+@media only screen and (min-width: 1024px) {
+  .logo {
+    margin-left: 270px;
+    grid-template-columns: auto;
+  }
+}
+
+.navbar-n{
   --border-style: solid;
   box-shadow: 0px 0px 13px 0px rgba(77, 82, 94, 0.13);
-  --font-size: 1rem;
+  font-size: .9rem;
 }
 
 .navbar > div > div >ul >li .navbar-element{
@@ -164,9 +181,6 @@ border-radius: 30px;
   font-family: sourcesanspro;
   color: #2b2b31;
   margin-right: 20px;
-  --font-size: 18px;
-  --letter-spacing: 0.5px;
-  --padding: 0 10px;
 }
 
 .navbar > div > div >ul >li .navbar-element:before,
