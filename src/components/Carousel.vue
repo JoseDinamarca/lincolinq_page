@@ -130,7 +130,7 @@
     font-size: 1rem;
     margin-bottom: .3125rem;
     text-transform: uppercase;
-    color: #004ff0;
+    color: #004ff0 !important;
     text-align: left;
     font-family: sourcesanspro;
     margin-top: -40px;
@@ -147,7 +147,7 @@
 
   .card-description {
     margin-right: 100px !important;
-    font-size: 1rem !important;
+    font-size: 0.9rem !important;
     max-width: 100%;
     color:white;
     opacity: 0.9;
@@ -223,7 +223,7 @@
     font-size: 1rem;
     margin-bottom: .3125rem;
     text-transform: uppercase;
-    color: #004ff0;
+    color: #004ff0!important;
     text-align: left;
     font-family: sourcesanspro;
     margin-top: -40px;
@@ -239,7 +239,7 @@
 
   .card-description {
     margin-right: 100px !important;
-    font-size: 1rem !important;
+    font-size: 0.9rem !important;
     max-width: 100%;
     color:white;
     opacity: 0.9;
@@ -349,7 +349,7 @@
 }
 
 .card-description {
-    font-size: 16px;
+  font-size: 0.9rem !important;
     max-width: 100%;
     opacity: 0.9;
     font-family: sourcesanspro;

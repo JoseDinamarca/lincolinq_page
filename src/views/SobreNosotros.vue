@@ -2,7 +2,7 @@
   <div>
     <h1>¿Quiénes somos?</h1>
     <a
-      >Dev&Pro es una consultora informática conformada por profesionales del
+      >Dev&Pro aes una consultora informática conformada por profesionales del
       área que buscan entregar soluciones informáticas manofacturadas a la
       medida de las necesidades de sus clientes. Localizada en la región del
       Maule, esta busca potenciar a los diversos emprendimientos que puedan ser
