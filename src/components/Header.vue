@@ -40,7 +40,7 @@
     <nav class="navbar navbar-expand-md navbar-light navbar-n">
       <div class="container-fluid align-items-center" > 
         <!-- logo -->
-        <router-link to="/" class="navbar-brand logo" style="" >
+        <router-link to="/inicio" class="navbar-brand logo" style="" >
                 <img style="" class="img-fluid d-inline-block align-text-top"  width="230" alt="logo" src="../img/logo_devpro.png" />
         </router-link>
         <!-- fin logo -->
@@ -59,8 +59,13 @@
           <!-- enlaces redes sociales -->
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <router-link to="/" class="nav-link navbar-element">
+              <router-link to="inicio" class="nav-link navbar-element">
                 Inicio
+              </router-link>
+            </li>
+            <li class="nav-item">
+              <router-link to="/sobre_nosotros" class="nav-link navbar-element">
+                Sobre nosotros
               </router-link>
             </li>
             <li class="nav-item ">
