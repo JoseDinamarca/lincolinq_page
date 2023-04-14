@@ -255,8 +255,6 @@
     margin-top: 7%;
   }
 
- 
-
   .texto-encima{
     position: absolute;
     align-content: center;

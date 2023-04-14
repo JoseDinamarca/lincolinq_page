@@ -2,33 +2,40 @@
   <div>
     <Carousel />
 
-    <div class="container">
-      <div class="row">
-          <div class="col-lg-6 col-xxl-5">
-            <div class="about-position">
-              <div class="img-about-1"></div>
-              <div class="img-about-2"></div>
-          </div>
+    <section>
+      <div class="container container-about">
+        <div class="row">
+          <div class="col-lg-6 col-xxl-5 margin-col" >
+            <div class="about-position" >
+              <div class="img-about-1" ></div>
+              <div class="img-about-2" ></div>
+            </div>
           </div>
           <div class="col-lg-6 col-xxl-5 offset-xxl-1 ">
-              <div class="card-body about-contenedor">
-                <h5 class="card-title card-title-subheading about-subheading">Sobre nosotros</h5>
-                <h2 class="card-title card-title-heading about-heading">Agencia de consultoría informática</h2>
-                <p class="card-text card-description about-description">Comprendemos las dificultades que presentan las pymes por eso
-                  podemos ayudarte a obtener presencia digital.</p>
-                  <button class="btn  about-button pull-right">Descubre  <i
-                    class="bi bi-arrow-right" ></i></button>  
-              </div>
+            <div class="card-body about-contenedor">
+              <h5 class="card-title card-title-subheading about-subheading" >Sobre nosotros</h5>
+              <h2 class="card-title card-title-heading about-heading">Agencia de consultoría informática</h2>
+              <p class="card-text card-description about-description">
+                Comprendemos las dificultades que presentan las
+                pymes por eso
+                podemos ayudarte a obtener presencia digital.</p>
+              <button class="btn  about-button pull-right">Descubre <i class="bi bi-arrow-right"></i></button>
             </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+
+
+    
+    <ServicioInicio />
 
 
 
-      
 
 
-   
+
+
     <div class="row justify-content-around w-auto box-info" style="margin: 12px">
       <h3 style="color: #1c89ff;">¿Quiénes somos?</h3>
       <br />
@@ -96,29 +103,30 @@
   </div>
 </template>
 
+
+
 <script>
 import Carousel from "../components/Carousel.vue";
-import Empresas from "../components/Empresas.vue";
+import ServicioInicio from "../components/ServicioInicio.vue";
 
 export default {
   components: {
     Carousel,
-    Empresas,
-  },
+    ServicioInicio,
+},
 };
 </script>
 
 <style>
+.container-about {
+  padding-top: 80px;
+}
 
-  .container{
-    padding: 80px;
-  }
+/* Diseño para celulares */
+@media (max-width:767px) {
 
-  /* Diseño para celulares */
-@media (max-width:767px) { 
-
-  .img-about-1{
-    background-image: url("../img/imagen3.png"); 
+  .img-about-1 {
+    background-image: url("../img/imagen3.png");
     border-radius: 10px;
     position: absolute;
     top: 0;
@@ -127,9 +135,9 @@ export default {
     height: 253px;
 
   }
-  
-  .img-about-2{
-    background-image: url("../img/imagen3.jpg"); 
+
+  .img-about-2 {
+    background-image: url("../img/imagen3.jpg");
     border-radius: 10px;
     position: absolute;
     right: 0;
@@ -138,30 +146,31 @@ export default {
     height: 253px;
   }
 
-  .about-position{
+  .about-position {
     position: relative;
     width: 100%;
     height: 500px;
   }
 
-  .about-contenedor{
+  .about-contenedor {
     margin: 0;
     background: white;
   }
 
-  .about-subheading{
+  .about-subheading {
     text-align: center;
     margin-top: -9%;
+    color:#004ff0;
   }
 
-  .about-heading{
+  .about-heading {
     margin-bottom: 20px;
     text-align: center;
     margin-right: 0 !important;
 
   }
 
-  .about-description{
+  .about-description {
     color: black;
     text-align: center;
     margin-right: 0 !important;
@@ -183,16 +192,16 @@ export default {
     color: white !important;
   }
 
- 
+
 
 }
 
 
-@media (min-width:768px) and (max-width:991px){
+@media (min-width:768px) and (max-width:991px) {
 
 
-  .img-about-1{
-    background-image: url("../img/imagen3.png"); 
+  .img-about-1 {
+    background-image: url("../img/imagen3.png");
     border-radius: 10px;
     position: absolute;
     top: 0;
@@ -201,9 +210,9 @@ export default {
     height: 253px;
 
   }
-  
-  .img-about-2{
-    background-image: url("../img/imagen3.jpg"); 
+
+  .img-about-2 {
+    background-image: url("../img/imagen3.jpg");
     border-radius: 10px;
     position: absolute;
     right: 0;
@@ -211,34 +220,38 @@ export default {
     width: 334px;
     height: 253px;
   }
-  
 
-  .about-position{
+
+  .about-position {
     position: relative;
     width: 80%;
     height: 500px;
     margin-left: 10%;
   }
 
-  .about-contenedor{
+  .about-contenedor {
     margin: 0;
     background: white;
   }
 
-  .about-subheading{
+  .about-subheading {
     text-align: center;
     margin-top: -9%;
+    color:#004ff0;
   }
 
-  .about-heading{
+  .about-heading {
+    padding-top: 5px;
+
     margin-bottom: 20px;
     text-align: center;
   }
 
-  .about-description{
+  .about-description {
     color: black;
     text-align: center;
-    content: center!important;;
+    content: center !important;
+    ;
   }
 
   .about-button {
@@ -261,10 +274,10 @@ export default {
 }
 
 
-@media (min-width:992px)  { 
+@media (min-width:992px) {
 
-  .img-about-1{
-    background-image: url("../img/imagen3.png"); 
+  .img-about-1 {
+    background-image: url("../img/imagen3.png");
     border-radius: 10px;
     position: absolute;
     top: 0;
@@ -273,35 +286,36 @@ export default {
     height: 253px;
 
   }
-  
-  .img-about-2{
-    background-image: url("../img/imagen3.jpg"); 
+
+  .img-about-2 {
+    background-image: url("../img/imagen3.jpg");
     border-radius: 10px;
     position: absolute;
     right: 0;
-    bottom: 20%;
+    bottom: 0%;
     width: 334px;
     height: 253px;
   }
 
-  .about-position{
+  .about-position {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 400px;
   }
-  
 
-  .about-contenedor{
+
+  .about-contenedor {
     margin: 0;
     background: white;
   }
 
 
-  .about-heading{
+  .about-heading {
+    padding-top: 5px;
     margin-bottom: 20px;
   }
 
-  .about-description{
+  .about-description {
     color: black;
   }
 
@@ -325,34 +339,9 @@ export default {
     color: white !important;
   }
 
+  .about-subheading {
+    color:#004ff0;
+  }
 }
 
-
-
-
-  
-
-
-
-
-
-
-
-.justify {
-  text-align: justify;
-}
-
-h1 {
-  text-align: center;
-}
-
-.box-info {
-  padding: 30px 0;
-  box-shadow: 0px 0px 27px 0px rgb(153, 152, 152);
-  border-radius: 15px;
-}
-
-.responsive {
-  width: 100%;
-  height: auto;
-}</style>
+</style>

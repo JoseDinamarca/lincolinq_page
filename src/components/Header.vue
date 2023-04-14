@@ -69,8 +69,8 @@
               </router-link>
             </li>
             <li class="nav-item ">
-              <router-link to="/productos_servicios" class="nav-link navbar-element" >
-                Productos y Servicios
+              <router-link to="/servicios" class="nav-link navbar-element" >
+               Servicios
               </router-link>
             </li>
             <li class="nav-item">

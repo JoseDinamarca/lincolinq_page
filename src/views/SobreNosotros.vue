@@ -8,35 +8,35 @@
     </div>
   </nav>
 
-
-  <div class="container">
-    <div class="row section-heading">
-      <header class="col-lg-12 col-xxl-12 ">
-        <h5 class="card-title card-title-subheading center">Consultores</h5>
-        <h2 class="card-title card-title-heading about-heading center">Sobre nosotros</h2>
-      </header>
-    </div>
-    <div class="row section-content">
-      <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
-        <div class="col-lg-12" style="margin-bottom: 10px;">
-          <img src="../img/imagen3.png" class="rounded mx-auto d-block about-img-1 " alt="...">
-        </div>
-
+  <section class="section-about">
+    <div class="container">
+      <div class="row section-heading">
+        <header class="col-lg-12 col-xxl-12 ">
+          <h5 class="card-title card-title-subheading center">Consultoría</h5>
+          <h2 class="card-title card-title-heading center">Sobre nosotros</h2>
+        </header>
       </div>
-      <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-        <div class="row">
-          <div class="col-sm-12  col-md-12 col-lg-12" style="padding-bottom: 10px;">
-            <img src="../img/imagen3.png" class="rounded mx-auto d-block about-img-2" alt="...">
+      <div class="row section-content">
+        <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+          <div class="col-lg-12" style="margin-bottom: 10px;">
+            <img src="../img/imagen3.png" class="rounded mx-auto d-block about-img-1 " alt="...">
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-12 " style="">
-            <img src="../img/imagen3.png" class="rounded mx-auto d-block about-img-3" alt="...">
+
+        </div>
+        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+          <div class="row">
+            <div class="col-sm-12  col-md-12 col-lg-12" style="padding-bottom: 10px;">
+              <img src="../img/imagen3.png" class="rounded mx-auto d-block about-img-2" alt="...">
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-12 " style="">
+              <img src="../img/imagen3.png" class="rounded mx-auto d-block about-img-3" alt="...">
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-
-  <div class=" positioning">
+  </section>
+  <section class="section-about-2">
     <div class="container">
       <div class="row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-5 ">
@@ -50,11 +50,10 @@
           <p class="card-text about-description">Comprendemos las dificultades que presentan las pymes por eso
             podemos ayudarte a obtener presencia digital.</p>
           <div class="accordion accordion-flush" id="accordion-about">
-            <div class="accordion-item" >
-              <h2 class="accordion-header" >
-                <button class="accordion-button "  type="button" 
-                  data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
-                  aria-controls="flush-collapseOne">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                   Empresa Dev&Pro
                 </button>
               </h2>
@@ -75,9 +74,11 @@
                 </button>
               </h2>
               <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion-about">
-                <div class="accordion-body">Desarrollar software a la medida en base a las necesidades del cliente con fin
+                <div class="accordion-body">Desarrollar software a la medida en base a las necesidades del cliente con
+                  fin
                   de generar oportunidades de crecimiento mediante la digitalización
-                  de sus proyectos, centrándonos en el futuro para impulsar el crecimiento de pequeñas y grandes empresas.
+                  de sus proyectos, centrándonos en el futuro para impulsar el crecimiento de pequeñas y grandes
+                  empresas.
                 </div>
               </div>
             </div>
@@ -98,12 +99,21 @@
       </div>
 
     </div>
-  </div>
-
-  
+  </section>
 </template>
 <style>
+.section-about {
+  padding: 4.5rem 0;
+}
+
 .positioning {
+  position: relative;
+  background-color: #f7f8fa;
+  margin: 0;
+}
+
+.section-about-2 {
+  padding: 4.5rem 0;
   position: relative;
   background-color: #f7f8fa;
   margin: 0;
@@ -189,10 +199,10 @@
 
 .accordion .accordion-item+.accordion-item {
   margin-top: 0.7rem;
-  
+
 }
 
-.accordion-body{
+.accordion-body {
   text-align: left;
   color: #5f6973
 }
@@ -200,24 +210,24 @@
 
 
 .about-title-heading {
-    text-align: left;
-    font-weight: bold;
-    font-family: sourcesanspro;
-    font-size: 2.5rem;
-  }
+  text-align: left;
+  font-weight: bold;
+  font-family: sourcesanspro;
+  font-size: 2.5rem;
+}
 
-  .about-description {
-    font-size: 16px !important;
-    max-width: 100%;
-    color: black;
-    font-family: sourcesanspro;
-    text-align: left;
-    margin-top: 30px;
-    
-  }
+.about-description {
+  font-size: 16px !important;
+  max-width: 100%;
+  color: black;
+  font-family: sourcesanspro;
+  text-align: left;
+  margin-top: 30px;
 
-  @media (max-width:991px)  { 
-    .about-title-heading {
+}
+
+@media (max-width:991px) {
+  .about-title-heading {
     font-weight: bold;
     font-family: sourcesanspro;
     font-size: 2.5rem;
@@ -234,7 +244,6 @@
     margin-top: 30px;
   }
 }
-
 </style>
 
 
