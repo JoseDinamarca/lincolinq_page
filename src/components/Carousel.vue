@@ -1,7 +1,6 @@
 <template>
   <!-- Carousel -->
   <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-
     <!-- Botones izquierdos y derecho -->
     <!--   -->
     <div class="carousel-indicators ">

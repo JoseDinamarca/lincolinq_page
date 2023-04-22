@@ -131,6 +131,7 @@
 .service-heading {
   padding-top: 30px;
   font-family: sourcesanspro !important;
+  font-size: 1.5em;
 }
 
 .service-p {
@@ -154,7 +155,7 @@
   background-position: 0 2.5%;
   border-radius: 10px;
   border-width: 1px;
-  border-color: #2c7bfe;
+  border-color: #D4D4E1;
   border-style: solid;
   cursor: pointer;
   transition: 0.5s;

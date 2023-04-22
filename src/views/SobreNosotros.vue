@@ -16,24 +16,17 @@
           <h2 class="card-title card-title-heading center">Sobre nosotros</h2>
         </header>
       </div>
-      <div class="row section-content">
-        <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
-          <div class="col-lg-12" style="margin-bottom: 10px;">
-            <img src="../img/imagen3.png" class="rounded mx-auto d-block about-img-1 " alt="...">
-          </div>
-
-        </div>
-        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-          <div class="row">
-            <div class="col-sm-12  col-md-12 col-lg-12" style="padding-bottom: 10px;">
-              <img src="../img/imagen3.png" class="rounded mx-auto d-block about-img-2" alt="...">
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-12 " style="">
-              <img src="../img/imagen3.png" class="rounded mx-auto d-block about-img-3" alt="...">
-            </div>
-          </div>
-        </div>
-      </div>
+      
+    </div>
+    <div class="container grid-container">
+      <div class="grid-item tall wide2"></div>
+      <div class="grid-item" ></div>
+      <div class="grid-item" ></div>
+      <div class="grid-item" ></div>
+      <div class="grid-item wide2"></div>
+     
+      
+      
     </div>
   </section>
   <section class="section-about-2">
@@ -99,9 +92,67 @@
       </div>
 
     </div>
+    
   </section>
 </template>
 <style>
+
+ 
+
+
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../img/imagen3.png');
+  background-color: #03afff;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.grid-item:hover {
+  filter: opacity(0.9);
+  transform: scale(1.04);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 20px;
+  padding: 20px;
+  grid-auto-flow: dense;
+  position: relative;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (min-width: 600px) {
+  .wide {
+    grid-column: span 2;
+  }
+  .wide2 {
+    grid-column: span 3;
+  }
+
+  .tall {
+    grid-row: span 2;
+  }
+  .tall2 {
+    grid-row: span 3;
+  }
+}
+
 .section-about {
   padding: 4.5rem 0;
 }
