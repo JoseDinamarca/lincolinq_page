@@ -3,7 +3,7 @@
     <div class="container mb-5 mb-md-6 mb-xl-10 ">
       <div class="row justify-content-md-center">
         <div class="col-12 col-md-10 col-lg-8 col-xl-8 text-center">
-          <h5 class="card-title card-title-subheading service-subheading" >Servicios</h5>
+          <h5 class="card-title service-subheading-inicio" >Servicios</h5>
           <h2 class="card-title card-title-heading center service-heading-inicio ">Ayudamos a las empresas a transformar su negocio y su tecnología</h2>
         </div>
       </div>
@@ -62,7 +62,7 @@
       <div class="container mb-5 mb-md-6 mb-xl-10 ">
       <div class="row justify-content-md-center">
         <div class="col-12 col-md-10 col-lg-8 col-xl-8 text-center">
-          <button class="btn service-button">Más Servicios <i class="bi bi-arrow-right"></i></button>
+          <button class="btn service-button-inicio">Más Servicios <i class="bi bi-arrow-right"></i></button>
         </div>
       </div>
       </div>
@@ -72,21 +72,20 @@
 
 <style>
 
-.service-button {
+.service-button-inicio {
     left: 0 !important;
     height: 50px !important;
     float: center !important;
-    margin-top: 3% !important;
+    margin-top: 5% !important;
     background-color: #2c7bfe !important;
     color: white !important;
   }
 
-  .service-button:hover {
+  .service-button-inicio:hover {
     left: 0 !important;
     height: 50px !important;
     float: center !important;
-    margin-top: 3% !important;
-    --background-color: #176cf5 !important;
+    margin-top: 5% !important;
     background: linear-gradient(#2c7bfe 20%, #176cf5 50%) !important;
     transition: 1s;
     color: white !important;
@@ -102,10 +101,17 @@
 }
 
 .service-heading-inicio {
+  padding-top:10px;
   font-family: sourcesanspro !important;
 }
 
-.service-subheading{
+.service-subheading-inicio{
+  transform: translate(0px);
+    font-size: 16px;
+    margin-bottom: 0.3125rem;
+    text-transform: uppercase;
+    color: #004ff0 !important;
+    font-family: sourcesanspro;
 text-align: center;
 }
 
