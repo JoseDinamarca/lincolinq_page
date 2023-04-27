@@ -8,17 +8,21 @@
             <div class="img-aboutIn-2"></div>
           </div>
         </div>
-        <div class="col-lg-6 col-xxl-5 offset-xxl-1 ">
+        <div class="col-lg-6 col-xxl-5 offset-xxl-1">
           <div class="card-body aboutIn-contenedor">
             <h5 class="card-title aboutIn-subheading">Sobre nosotros</h5>
-            <h2 class="card-title aboutIn-heading">Agencia de consultoría informática</h2>
+            <h2 class="card-title aboutIn-heading">
+              Agencia de consultoría informática
+            </h2>
             <p class="card-text aboutIn-description">
-              Comprendemos las dificultades que presentan las
-              pymes por eso
-              podemos ayudarte a obtener presencia digital.</p>
+              Comprendemos las dificultades que se presentan a las pymes, por
+              eso podemos ayudarte a obtener presencia digital.
+            </p>
             <div class="row justify-content-xs-center">
               <div class="col-12 col-md-12 col-lg-8 col-xl-8 text-center">
-                <button class="btn aboutIn-button">Descubre <i class="bi bi-arrow-right"></i></button>
+                <button class="btn aboutIn-button">
+                  Descubre <i class="bi bi-arrow-right"></i>
+                </button>
               </div>
             </div>
           </div>
@@ -33,9 +37,7 @@
   padding-top: 80px;
 }
 
-
-@media (max-width:767px) {
-
+@media (max-width: 767px) {
   .img-aboutIn-1 {
     background-image: url("../img/imagen3.png");
     border-radius: 10px;
@@ -44,7 +46,6 @@
     left: 0;
     width: 338px;
     height: 253px;
-
   }
 
   .img-aboutIn-2 {
@@ -71,7 +72,7 @@
   .aboutIn-subheading {
     transform: translate(0px);
     font-size: 1rem;
-    margin-bottom: .3125rem;
+    margin-bottom: 0.3125rem;
     text-transform: uppercase;
     color: #004ff0 !important;
     font-family: sourcesanspro;
@@ -88,7 +89,6 @@
     margin-bottom: 20px;
     text-align: center !important;
     margin-right: 0 !important;
-
   }
 
   .aboutIn-description {
@@ -110,7 +110,6 @@
     margin-top: 3% !important;
     border-style: solid !important;
     border-color: black !important;
-
   }
 
   .aboutIn-button:hover {
@@ -119,15 +118,9 @@
     background: #3a3b3b !important;
     color: white !important;
   }
-
-
-
 }
 
-
-@media (min-width:768px) and (max-width:992px) {
-
-
+@media (min-width: 768px) and (max-width: 992px) {
   .img-aboutIn-1 {
     background-image: url("../img/imagen3.png");
     border-radius: 10px;
@@ -136,7 +129,6 @@
     left: 0;
     width: 338px;
     height: 253px;
-
   }
 
   .img-aboutIn-2 {
@@ -148,7 +140,6 @@
     width: 334px;
     height: 253px;
   }
-
 
   .aboutIn-position {
     position: relative;
@@ -165,7 +156,7 @@
   .aboutIn-subheading {
     transform: translate(0px);
     font-size: 1rem;
-    margin-bottom: .3125rem;
+    margin-bottom: 0.3125rem;
     text-transform: uppercase;
     color: #004ff0 !important;
     font-family: sourcesanspro;
@@ -188,7 +179,6 @@
     color: black;
     text-align: center;
     content: center !important;
-    ;
   }
 
   .aboutIn-button {
@@ -198,7 +188,6 @@
     margin-top: 3% !important;
     border-style: solid !important;
     border-color: black !important;
-    
   }
 
   .aboutIn-button:hover {
@@ -207,13 +196,9 @@
     background: #3a3b3b !important;
     color: white !important;
   }
-
-
 }
 
-
-@media (min-width:992px) {
-
+@media (min-width: 992px) {
   .img-aboutIn-1 {
     background-image: url("../img/imagen3.png");
     border-radius: 10px;
@@ -222,7 +207,6 @@
     left: 0;
     width: 338px;
     height: 253px;
-
   }
 
   .img-aboutIn-2 {
@@ -241,12 +225,10 @@
     height: 400px;
   }
 
-
   .aboutIn-contenedor {
     margin: 0;
     background: white;
   }
-
 
   .aboutIn-heading {
     font-weight: bold;
@@ -284,7 +266,7 @@
   .aboutIn-subheading {
     transform: translate(0px);
     font-size: 1rem;
-    margin-bottom: .3125rem;
+    margin-bottom: 0.3125rem;
     text-transform: uppercase;
     color: #004ff0 !important;
     font-family: sourcesanspro;

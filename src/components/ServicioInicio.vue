@@ -7,7 +7,11 @@
           <h2
             class="card-title card-title-heading center service-heading-inicio"
           >
+<<<<<<< HEAD
             Ayudamos a las empresas a transformar su negocio y su tecnología
+=======
+            Ayudamos a las empresas a transformar su negocio y tecnología
+>>>>>>> Text
           </h2>
         </div>
       </div>
@@ -31,8 +35,13 @@
           </div>
           <h3 class="service-heading">Soporte 24/7</h3>
           <p class="service-p">
+<<<<<<< HEAD
             Lorem ipsum dolor sit cuchuflí barquillo bacán jote gamba listeilor
             po cahuín, luca melón con vino.
+=======
+            Ofrecemos soporte 24/7 a nuestros clientes, procurando que tu
+            negocio se encuentre en óptimas condiciones.
+>>>>>>> Text
           </p>
         </div>
       </div>
@@ -57,8 +66,13 @@
           </div>
           <h3 class="service-heading">Chat online</h3>
           <p class="service-p">
+<<<<<<< HEAD
             Lorem ipsum dolor sit cuchuflí barquillo bacán jote gamba listeilor
             po cahuín, luca melón con vino.
+=======
+            Podrás estar en contacto con tus clientes de manera más comoda,
+            rápida y segura, tanto para ti, como para tus propios clientes.
+>>>>>>> Text
           </p>
         </div>
       </div>
@@ -83,8 +97,13 @@
           </div>
           <h3 class="service-heading">Desarrollo a medida</h3>
           <p class="service-p">
+<<<<<<< HEAD
             Lorem ipsum dolor sit cuchuflí barquillo bacán jote gamba listeilor
             po cahuín, luca melón con vino.
+=======
+            Estudiaremos tu caso para dar con el resultado que más se acomode a
+            tus necesidades.
+>>>>>>> Text
           </p>
         </div>
       </div>
