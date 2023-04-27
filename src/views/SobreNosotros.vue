@@ -7,7 +7,10 @@
     <div class="container access">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-        <li class="breadcrumb-item active" aria-current="page">
+        <li
+          class="breadcrumb-item active"
+          aria-current="page"
+        >
           Sobre nosotros
         </li>
       </ol>
@@ -46,10 +49,13 @@
             Innovamos para conseguir nuevas oportunidades.
           </h2>
           <p class="card-text about-description">
-            Comprendemos las dificultades que presentan las pymes por eso
+            Comprendemos las dificultades que se presentan a las pymes por eso
             podemos ayudarte a obtener presencia digital.
           </p>
-          <div class="accordion accordion-flush" id="accordion-about">
+          <div
+            class="accordion accordion-flush"
+            id="accordion-about"
+          >
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button
@@ -99,7 +105,7 @@
               >
                 <div class="accordion-body">
                   Desarrollar software a la medida en base a las necesidades del
-                  cliente con fin de generar oportunidades de crecimiento
+                  cliente, con fin de generar oportunidades de crecimiento
                   mediante la digitalización de sus proyectos, centrándonos en
                   el futuro para impulsar el crecimiento de pequeñas y grandes
                   empresas.
@@ -260,9 +266,9 @@
         <div class="card-teams">
           <div class="trabajador-2"></div>
           <div class="container-teams">
-            <h2>Joaquin caroca</h2>
+            <h2>Luis Caroca</h2>
             <p class="title-teams">Fundador/Desarrollador</p>
-            <p>joaquin.caroca@consultoradevpro.cl</p>
+            <p>luis.caroca@consultoradevpro.cl</p>
             <p><button class="button-teams">Contacto</button></p>
           </div>
         </div>

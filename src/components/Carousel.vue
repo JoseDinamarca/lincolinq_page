@@ -1,6 +1,10 @@
 <template>
   <!-- Carousel -->
-  <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+  <div
+    id="carousel"
+    class="carousel slide"
+    data-bs-ride="carousel"
+  >
     <!-- Botones izquierdos y derecho -->
     <!--   -->
     <div class="carousel-indicators">
@@ -24,7 +28,10 @@
 
     <div class="carousel-inner">
       <!-- Carousel 1 -->
-      <div class="carousel-item active" data-bs-interval="5000">
+      <div
+        class="carousel-item active"
+        data-bs-interval="5000"
+      >
         <div class="row">
           <div
             class="col-12 col-sm-12 col-md-12 align-self-center d-md-block texto-encima"
@@ -36,8 +43,8 @@
                   Apoyamos a las pymes
                 </h2>
                 <p class="card-text card-description">
-                  Comprendemos las dificultades que presentan las pymes por eso
-                  podemos ayudarte a obtener presencia digital.
+                  Comprendemos las dificultades que se presentan a las pymes,
+                  por eso podemos ayudarte a obtener presencia digital.
                 </p>
                 <button class="btn btn-primary card-button pull-right">
                   Conocer Más <i class="bi bi-arrow-right"></i>
@@ -50,7 +57,10 @@
           </div>
         </div>
       </div>
-      <div class="carousel-item" data-bs-interval="5000">
+      <div
+        class="carousel-item"
+        data-bs-interval="5000"
+      >
         <div class="row">
           <div class="col-md-9 carousel-image">
             <div class="img-carousel-2"></div>
