@@ -1,16 +1,28 @@
 <template>
   <header>
     <!--Header: topbar -->
-    <nav class="navbar navbar-expand-lg navbar-light topbar" id="menu_topbar">
+    <nav
+      class="navbar navbar-expand-lg navbar-light topbar"
+      id="menu_topbar"
+    >
       <div class="container-fluid">
         <div class="mx-auto">
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div
+            class="collapse navbar-collapse"
+            id="navbarNavAltMarkup"
+          >
             <div class="navbar-nav">
-              <a class="nav-item nav-link" href="#">
+              <a
+                class="nav-item nav-link"
+                href="#"
+              >
                 <i class="bi bi-clock-fill"></i>
                 Horario de atención: Lun - Vie: 9:00 - 18:00 hrs.
               </a>
-              <a class="nav-item nav-link" href="#">
+              <a
+                class="nav-item nav-link"
+                href="#"
+              >
                 <i class="bi bi-envelope-at-fill"></i>
                 contacto@consultoradevpro.cl
               </a>
@@ -18,7 +30,10 @@
           </div>
         </div>
         <div class="mx-auto">
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div
+            class="collapse navbar-collapse"
+            id="navbarNavAltMarkup"
+          >
             <div class="navbar-nav">
               <a
                 class="nav-item nav-link topbar-social instagram"
@@ -47,7 +62,11 @@
     <nav class="navbar navbar-expand-md navbar-light navbar-n">
       <div class="container-fluid align-items-center">
         <!-- logo -->
-        <router-link to="/" class="navbar-brand logo" style="">
+        <router-link
+          to="/"
+          class="navbar-brand logo"
+          style=""
+        >
           <img
             style=""
             class="img-fluid d-inline-block align-text-top"
@@ -71,37 +90,60 @@
         </button>
         <!-- fin boton del menu -->
         <!-- elementos del menu colapsable -->
-        <div class="collapse navbar-collapse" id="menu">
+        <div
+          class="collapse navbar-collapse"
+          id="menu"
+        >
           <hr class="d-md-none d-lg-block" />
           <!-- enlaces redes sociales -->
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <router-link to="/inicio" class="nav-link navbar-element">
+              <router-link
+                to="/"
+                class="nav-link navbar-element"
+              >
                 Inicio
               </router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/sobre_nosotros" class="nav-link navbar-element">
+              <router-link
+                to="/sobre_nosotros"
+                class="nav-link navbar-element"
+              >
                 Sobre nosotros
               </router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/servicios" class="nav-link navbar-element">
+              <router-link
+                to="/servicios"
+                class="nav-link navbar-element"
+              >
                 Servicios
               </router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/apoyo_pymes" class="nav-link navbar-element">
+              <router-link
+                to="/apoyo_pymes"
+                class="nav-link navbar-element"
+              >
                 Apoyo a PYMES
               </router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/contactanos" class="nav-link navbar-element">
+              <router-link
+                to="/contactanos"
+                class="nav-link navbar-element"
+              >
                 Contáctanos
               </router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/blog" class="nav-link"> Blog </router-link>
+              <router-link
+                to="/blog"
+                class="nav-link"
+              >
+                Blog
+              </router-link>
             </li>
           </ul>
           <!-- fin enlaces redes sociales -->
