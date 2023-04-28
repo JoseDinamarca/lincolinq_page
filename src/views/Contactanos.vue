@@ -87,7 +87,7 @@
                 </svg>
                 <div>
                   <a
-                    href="contacto@consultoradevpro.cl"
+                    href="mailto:contacto@consultoradevpro.cl"
                     target="_self"
                     rel="noopener"
                     class="link-contacto"
@@ -143,10 +143,7 @@
                 ></p>
                 <ul></ul>
               </div>
-              <form
-                action=""
-                method="post"
-              >
+              <form @submit.prevent="submitForm">
                 <div class="row gutters-default">
                   <div class="col-12">
                     <h3 class="title-contact2">Formulario de contacto</h3>
@@ -162,10 +159,10 @@
                             autocomplete="off"
                             aria-required="true"
                             aria-invalid="false"
-                            value=""
                             type="text"
                             name="contact-fullname"
                             placeholder="Nombre completo"
+                            v-model="name"
                         /></span>
                       </p>
                     </div>
@@ -181,10 +178,10 @@
                             autocomplete="off"
                             aria-required="true"
                             aria-invalid="false"
-                            value=""
                             type="tel"
                             name="contact-phone"
                             placeholder="Número telefónico"
+                            v-model="phone"
                         /></span>
                       </p>
                     </div>
@@ -200,10 +197,10 @@
                             autocomplete="off"
                             aria-required="true"
                             aria-invalid="false"
-                            value=""
                             type="email"
                             name="contact-email"
                             placeholder="Correo electrónico"
+                            v-model="useremail"
                         /></span>
                       </p>
                     </div>
@@ -221,6 +218,7 @@
                             name="contact-message"
                             placeholder="Mensaje"
                             style="resize: none"
+                            v-model="message"
                           ></textarea>
                         </span>
                       </p>
@@ -257,6 +255,13 @@
                         <button class="button-teams">Enviar mensaje</button>
                       </p>
                     </div>
+                    <div
+                      v-if="success"
+                      class="alert alert-success mt-3"
+                      style="text-align: center"
+                    >
+                      Correo enviado!
+                    </div>
                   </div>
                 </div>
                 <div
@@ -275,6 +280,48 @@
 <script>
 export default {
   name: "LandingPage",
+  data() {
+    return {
+      name: "",
+      phone: "",
+      useremail: "",
+      message: "",
+      email: "",
+      success: false,
+    };
+  },
+  methods: {
+    submitForm() {
+      const data = {
+        name: this.name,
+        phone: this.phone,
+        useremail: this.useremail,
+        message: this.message,
+        email: "contacto@consultoradevpro.cl",
+      };
+      fetch(process.env.VUE_APP_ROOT_API + "/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      })
+        .then((response) => {
+          if (response.ok) {
+            this.name = "";
+            this.phone = "";
+            this.useremail = "";
+            this.message = "";
+            this.success = true;
+          } else {
+            this.status = "Ocurrió un error al enviar el correo.";
+          }
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    },
+  },
 };
 </script>
 
