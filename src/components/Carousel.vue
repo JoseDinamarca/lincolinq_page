@@ -1,10 +1,6 @@
 <template>
   <!-- Carousel -->
-  <div
-    id="carousel"
-    class="carousel slide"
-    data-bs-ride="carousel"
-  >
+  <div id="carousel" class="carousel slide" data-bs-ride="carousel">
     <!-- Botones izquierdos y derecho -->
     <!--   -->
     <div class="carousel-indicators">
@@ -16,22 +12,19 @@
         aria-current="true"
         aria-label="Slide 1"
       ></button>
-      <button
+      <!--<button
         type="button"
         data-bs-target="#carousel"
         data-bs-slide-to="1"
         aria-label="Slide 2"
-      ></button>
+      ></button>-->
     </div>
 
     <!-- FIn botones izquierdos y derecho -->
 
     <div class="carousel-inner">
       <!-- Carousel 1 -->
-      <div
-        class="carousel-item active"
-        data-bs-interval="5000"
-      >
+      <div class="carousel-item active" data-bs-interval="5000">
         <div class="row">
           <div
             class="col-12 col-sm-12 col-md-12 align-self-center d-md-block texto-encima"
@@ -57,10 +50,8 @@
           </div>
         </div>
       </div>
-      <div
-        class="carousel-item"
-        data-bs-interval="5000"
-      >
+      <!-- Carousel 2 -->
+      <!--<div class="carousel-item" data-bs-interval="5000">
         <div class="row">
           <div class="col-md-9 carousel-image">
             <div class="img-carousel-2"></div>
@@ -85,7 +76,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
     </div>
 
     <!--  

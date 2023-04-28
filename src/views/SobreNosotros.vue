@@ -7,10 +7,7 @@
     <div class="container access">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-        <li
-          class="breadcrumb-item active"
-          aria-current="page"
-        >
+        <li class="breadcrumb-item active" aria-current="page">
           Sobre nosotros
         </li>
       </ol>
@@ -52,14 +49,11 @@
             Comprendemos las dificultades que se presentan a las pymes por eso
             podemos ayudarte a obtener presencia digital.
           </p>
-          <div
-            class="accordion accordion-flush"
-            id="accordion-about"
-          >
+          <div class="accordion accordion-flush" id="accordion-about">
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button
-                  class="accordion-button"
+                  class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseOne"
@@ -317,7 +311,7 @@
   background-image: url("../img/about/person-3.jpg") !important;
   height: 300px;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   background-size: cover;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;

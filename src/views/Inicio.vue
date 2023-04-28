@@ -1,22 +1,18 @@
 <template>
   <div>
-
     <div>
       <Carousel />
     </div>
 
     <div>
- 
-        <SobreNosotrosInicio />
+      <SobreNosotrosInicio />
     </div>
 
     <div>
       <ServicioInicio />
     </div>
-
   </div>
 </template>
-
 
 <script>
 import Carousel from "../components/Carousel.vue";
@@ -30,5 +26,4 @@ export default {
     ServicioInicio,
   },
 };
-
 </script>

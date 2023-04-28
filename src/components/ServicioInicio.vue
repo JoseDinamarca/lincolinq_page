@@ -1,5 +1,8 @@
 <template>
   <section class="section-service">
+    <div id="progress">
+      <span id="progress-value"><i class="bi bi-arrow-up-short"></i></span>
+    </div>
     <div class="container mb-5 mb-md-6 mb-xl-10">
       <div class="row justify-content-md-center">
         <div class="col-12 col-md-10 col-lg-8 col-xl-8 text-center">
@@ -7,11 +10,7 @@
           <h2
             class="card-title card-title-heading center service-heading-inicio"
           >
-<<<<<<< HEAD
-            Ayudamos a las empresas a transformar su negocio y su tecnología
-=======
             Ayudamos a las empresas a transformar su negocio y tecnología
->>>>>>> Text
           </h2>
         </div>
       </div>
@@ -35,13 +34,8 @@
           </div>
           <h3 class="service-heading">Soporte 24/7</h3>
           <p class="service-p">
-<<<<<<< HEAD
-            Lorem ipsum dolor sit cuchuflí barquillo bacán jote gamba listeilor
-            po cahuín, luca melón con vino.
-=======
             Ofrecemos soporte 24/7 a nuestros clientes, procurando que tu
             negocio se encuentre en óptimas condiciones.
->>>>>>> Text
           </p>
         </div>
       </div>
@@ -66,13 +60,8 @@
           </div>
           <h3 class="service-heading">Chat online</h3>
           <p class="service-p">
-<<<<<<< HEAD
-            Lorem ipsum dolor sit cuchuflí barquillo bacán jote gamba listeilor
-            po cahuín, luca melón con vino.
-=======
             Podrás estar en contacto con tus clientes de manera más comoda,
             rápida y segura, tanto para ti, como para tus propios clientes.
->>>>>>> Text
           </p>
         </div>
       </div>
@@ -97,13 +86,8 @@
           </div>
           <h3 class="service-heading">Desarrollo a medida</h3>
           <p class="service-p">
-<<<<<<< HEAD
-            Lorem ipsum dolor sit cuchuflí barquillo bacán jote gamba listeilor
-            po cahuín, luca melón con vino.
-=======
             Estudiaremos tu caso para dar con el resultado que más se acomode a
             tus necesidades.
->>>>>>> Text
           </p>
         </div>
       </div>
@@ -111,7 +95,9 @@
         <div class="row justify-content-md-center">
           <div class="col-12 col-md-10 col-lg-8 col-xl-8 text-center">
             <button class="btn service-button-inicio">
-              Más Servicios <i class="bi bi-arrow-right"></i>
+              <router-link to="/servicios" class="nav-link navbar-element">
+                Más Servicios <i class="bi bi-arrow-right"></i>
+              </router-link>
             </button>
           </div>
         </div>
@@ -243,4 +229,50 @@
     max-width: 33.33%;
   }
 }
+
+#progress {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  height: 60px;
+  width: 60px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+#progress-value {
+  display: block;
+  height: calc(100% - 15px);
+  width: calc(100% - 15px);
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 30px;
+  color: #004ff0;
+}
 </style>
+
+<script>
+let calcScrollValue = () => {
+  let scrollProgress = document.getElementById("progress");
+  let pos = document.documentElement.scrollTop;
+  let calcHeight =
+    document.documentElement.scrollHeight -
+    document.documentElement.clientHeight;
+  let scrollValue = Math.round((pos * 100) / calcHeight);
+  if (pos > 100) {
+    scrollProgress.style.display = "grid";
+  } else {
+    scrollProgress.style.display = "none";
+  }
+  scrollProgress.addEventListener("click", () => {
+    document.documentElement.scrollTop = 0;
+  });
+  scrollProgress.style.background = `conic-gradient(#004ff0 ${scrollValue}%, #d7d7d7 ${scrollValue}%)`;
+};
+window.onscroll = calcScrollValue;
+window.onload = calcScrollValue;
+</script>
