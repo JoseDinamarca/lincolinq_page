@@ -95,10 +95,7 @@
         <div class="row justify-content-md-center">
           <div class="col-12 col-md-10 col-lg-8 col-xl-8 text-center">
             <button class="btn service-button-inicio">
-              <router-link
-                to="/servicios"
-                class="nav-link navbar-element"
-              >
+              <router-link to="/servicios" class="nav-link navbar-element">
                 Más Servicios <i class="bi bi-arrow-right"></i>
               </router-link>
             </button>
@@ -245,6 +242,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
+
 #progress-value {
   display: block;
   height: calc(100% - 15px);
@@ -277,5 +275,4 @@ let calcScrollValue = () => {
   scrollProgress.style.background = `conic-gradient(#004ff0 ${scrollValue}%, #d7d7d7 ${scrollValue}%)`;
 };
 window.onscroll = calcScrollValue;
-window.onload = calcScrollValue;
 </script>

@@ -39,9 +39,11 @@
                   Comprendemos las dificultades que se presentan a las pymes,
                   por eso podemos ayudarte a obtener presencia digital.
                 </p>
-                <button class="btn btn-primary card-button pull-right">
-                  Conocer Más <i class="bi bi-arrow-right"></i>
-                </button>
+                <router-link to="/apoyo_pymes" class="">
+                  <button class="btn btn-primary card-button pull-right">
+                    Conocer Más <i class="bi bi-arrow-right"></i>
+                  </button>
+                </router-link>
               </div>
             </div>
           </div>

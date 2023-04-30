@@ -13,10 +13,7 @@
             class="mb-4"
             style="color: #0d6efd; text-align: left; font-weight: bolder"
           >
-            <router-link
-              to="/"
-              class="navbar-brand logo"
-            >
+            <router-link to="/" class="navbar-brand logo">
               <img
                 style=""
                 class="img-fluid d-inline-block align-text-top"
@@ -42,53 +39,52 @@
             Sitio Web
           </h4>
           <p style="color: #d0d6d6; text-align: left">
-            <a
-              href="#"
-              class="text-white"
-              style="text-decoration: none"
+            <a href="#" class="text-white" style="text-decoration: none"
               >Inicio</a
             >
           </p>
           <p style="color: #d0d6d6; text-align: left">
-            <a
-              href="#"
+            <router-link
+              to="/sobre_nosotros"
               class="text-white"
               style="text-decoration: none"
-              >Sobre Nosotros</a
             >
+              Sobre Nosotros
+            </router-link>
           </p>
           <p style="color: #d0d6d6; text-align: left">
-            <a
-              href="#"
+            <router-link
+              to="/servicios"
               class="text-white"
               style="text-decoration: none"
-              >Servicios</a
             >
+              Servicios
+            </router-link>
           </p>
           <p style="color: #d0d6d6; text-align: left">
-            <a
-              href="#"
+            <router-link
+              to="/apoyo_pymes"
               class="text-white"
               style="text-decoration: none"
-              >Apoyamos a las Pymes</a
             >
+              Apoyamos a las Pymes
+            </router-link>
           </p>
           <p style="color: #d0d6d6; text-align: left">
-            <a
-              href="#"
+            <router-link
+              to="/contactanos"
               class="text-white"
               style="text-decoration: none"
-              >Contacto</a
             >
+              Contacto
+            </router-link>
           </p>
+          <!--
           <p style="color: #d0d6d6; text-align: left">
-            <a
-              href="#"
-              class="text-white"
-              style="text-decoration: none"
+            <a href="#" class="text-white" style="text-decoration: none"
               >Blog</a
             >
-          </p>
+          </p>-->
         </div>
 
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
@@ -99,32 +95,21 @@
             Enlaces
           </h4>
           <p style="text-align: left">
-            <a
-              href="#"
-              class="text-white"
-              style="text-decoration: none"
-            >
+            <a href="#" class="text-white" style="text-decoration: none">
               Políticas de privacidad</a
             >
           </p>
           <p style="text-align: left">
-            <a
-              href="#"
-              class="text-white"
-              style="text-decoration: none"
-            >
+            <a href="#" class="text-white" style="text-decoration: none">
               Términos de uso</a
             >
           </p>
+          <!--
           <p style="text-align: left">
-            <a
-              href="#"
-              class="text-white"
-              style="text-decoration: none"
-            >
+            <a href="#" class="text-white" style="text-decoration: none">
               Preguntas Frecuentes</a
             >
-          </p>
+          </p> -->
         </div>
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
           <h4
@@ -133,10 +118,7 @@
           >
             Contacto
           </h4>
-          <p
-            class="text-white"
-            style="text-align: left; margin-bottom: 2px"
-          >
+          <p class="text-white" style="text-align: left; margin-bottom: 2px">
             <a
               href="https://api.whatsapp.com/send/?phone=56926493333"
               target="_blank"
@@ -144,10 +126,7 @@
               ><i class="bi bi-whatsapp"></i> +56 9 2649 3333
             </a>
           </p>
-          <p
-            class="text-white"
-            style="text-align: left; margin-bottom: 2px"
-          >
+          <p class="text-white" style="text-align: left; margin-bottom: 2px">
             <a
               href="https://api.whatsapp.com/send/?phone=56926459314"
               target="_blank"
@@ -155,10 +134,7 @@
               ><i class="bi bi-whatsapp"></i> +56 9 2645 9314
             </a>
           </p>
-          <p
-            class="text-white"
-            style="text-align: left"
-          >
+          <p class="text-white" style="text-align: left">
             <a
               href="https://api.whatsapp.com/send/?phone=56991843822"
               target="_blank"
@@ -166,28 +142,19 @@
               ><i class="bi bi-whatsapp"></i> +56 9 9184 3822
             </a>
           </p>
-          <p
-            class="text-white"
-            style="text-align: left"
-          >
+          <p class="text-white" style="text-align: left">
             <i class="bi bi-envelope-at-fill"></i> contacto@consultoradevpro.cl
           </p>
         </div>
       </div>
-      <hr
-        class="mb-4"
-        style="border: 1px solid #ffffff"
-      />
+      <hr class="mb-4" style="border: 1px solid #ffffff" />
       <div class="row align-items-center">
         <div class="col-md-7 col-lg-8">
           <p style="color: #d0d6d6">
             Copyright <i class="bi bi-c-circle"></i>2023, Todos los derechos
             reservados.
-            <a
-              href="#"
-              style="text-decoration: none"
-            >
-              <strong>Dev&Pro</strong>
+            <a href="#" style="text-decoration: none">
+              <strong>Dev&Pro Ltda</strong>
             </a>
           </p>
         </div>

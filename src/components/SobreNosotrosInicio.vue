@@ -20,9 +20,11 @@
             </p>
             <div class="row justify-content-xs-center">
               <div class="col-12 col-md-12 col-lg-8 col-xl-8 text-center">
-                <button class="btn aboutIn-button">
-                  Descubre <i class="bi bi-arrow-right"></i>
-                </button>
+                <router-link to="/sobre_nosotros">
+                  <button class="btn aboutIn-button">
+                    Descubre <i class="bi bi-arrow-right"></i>
+                  </button>
+                </router-link>
               </div>
             </div>
           </div>
