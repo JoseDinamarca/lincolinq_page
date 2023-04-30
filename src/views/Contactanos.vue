@@ -7,15 +7,26 @@
     <div class="container access">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Contáctanos</li>
+        <li
+          class="breadcrumb-item active"
+          aria-current="page"
+        >
+          Contáctanos
+        </li>
       </ol>
     </div>
   </nav>
-  <div class="section" style="padding: 4.5rem 0">
+  <div
+    class="section"
+    style="padding: 4.5rem 0"
+  >
     <div class="container">
       <div class="row">
         <header class="col-12">
-          <div class="section-heading" style="opacity: 1">
+          <div
+            class="section-heading"
+            style="opacity: 1"
+          >
             <div class="section-subheading">Te esperamos</div>
             <h1 class="title-contact">Contáctanos</h1>
           </div>
@@ -43,11 +54,17 @@
                   <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
                 </svg>
                 <div>
-                  <a class="formingHrefTel" href="tel:+56 9 2649 3333"
+                  <a
+                    class="formingHrefTel"
+                    href="tel:+56 9 2649 3333"
                     >+56 9 2649 3333</a
-                  ><a class="formingHrefTel" href="tel:+56 9 2645 9314"
+                  ><a
+                    class="formingHrefTel"
+                    href="tel:+56 9 2645 9314"
                     >+56 9 2645 9314</a
-                  ><a class="formingHrefTel" href="tel:+56 9 9184 3822"
+                  ><a
+                    class="formingHrefTel"
+                    href="tel:+56 9 9184 3822"
                     >+56 9 9184 3822</a
                   >
                 </div>
@@ -119,7 +136,11 @@
               lang="en-US"
             >
               <div class="screen-reader-response">
-                <p role="status" aria-live="polite" aria-atomic="true"></p>
+                <p
+                  role="status"
+                  aria-live="polite"
+                  aria-atomic="true"
+                ></p>
                 <ul></ul>
               </div>
               <form @submit.prevent="submitForm">
@@ -217,6 +238,7 @@
                                   type="checkbox"
                                   name="contact-pp"
                                   value="Acepto la transferencia de datos personales de acuerdo con la Política de Privacidad"
+                                  v-model="isChecked"
                                 /><span class="list-item-label"
                                   >Acepto la transferencia de datos personales
                                   de acuerdo con la Política de Privacidad</span
@@ -231,7 +253,12 @@
                   <div class="col-12">
                     <div class="form-btn">
                       <p>
-                        <button class="button-teams">Enviar mensaje</button>
+                        <button
+                          v-if="isChecked"
+                          class="button-teams"
+                        >
+                          Enviar mensaje
+                        </button>
                       </p>
                     </div>
                     <div
@@ -243,7 +270,10 @@
                     </div>
                   </div>
                 </div>
-                <div class="wpcf7-response-output" aria-hidden="true"></div>
+                <div
+                  class="wpcf7-response-output"
+                  aria-hidden="true"
+                ></div>
               </form>
             </div>
           </div>
@@ -264,6 +294,7 @@ export default {
       message: "",
       email: "",
       success: false,
+      isChecked: false,
     };
   },
   methods: {
