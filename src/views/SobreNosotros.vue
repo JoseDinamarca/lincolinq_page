@@ -1,4 +1,7 @@
 <template>
+  <div id="progress">
+    <span id="progress-value"><i class="bi bi-arrow-up-short"></i></span>
+  </div>
   <nav
     aria-label="breadcrumb "
     class="positioning"
@@ -7,10 +10,7 @@
     <div class="container access">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-        <li
-          class="breadcrumb-item active"
-          aria-current="page"
-        >
+        <li class="breadcrumb-item active" aria-current="page">
           Sobre nosotros
         </li>
       </ol>
@@ -52,10 +52,7 @@
             Comprendemos las dificultades que se presentan a las pymes por eso
             podemos ayudarte a obtener presencia digital.
           </p>
-          <div
-            class="accordion accordion-flush"
-            id="accordion-about"
-          >
+          <div class="accordion accordion-flush" id="accordion-about">
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button

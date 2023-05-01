@@ -1,4 +1,7 @@
 <template>
+  <div id="progress">
+    <span id="progress-value"><i class="bi bi-arrow-up-short"></i></span>
+  </div>
   <nav
     aria-label="breadcrumb "
     class="positioning"
@@ -20,10 +23,10 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-md-6 col-lg-5">
+        <div class="col-xs-12 col-md-5 col-lg-5">
           <div class="img-pymes"></div>
         </div>
-        <div class="offset-md-1 col-md-6">
+        <div class="offset-md-1 col-md-6 offset-lg-1 col-lg-6 col-xs-12">
           <h2 class="apoyopyme-title-heading">
             Nuestro compromiso con las pymes
           </h2>

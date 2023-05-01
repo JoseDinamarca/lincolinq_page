@@ -94,15 +94,24 @@
           >
             Enlaces
           </h4>
-          <p style="text-align: left">
-            <a href="#" class="text-white" style="text-decoration: none">
-              Políticas de privacidad</a
+          <p style="color: #d0d6d6; text-align: left">
+            <router-link
+              to="/politicas_de_privacidad"
+              class="text-white"
+              style="text-decoration: none"
             >
+              Políticas de privacidad
+            </router-link>
           </p>
-          <p style="text-align: left">
-            <a href="#" class="text-white" style="text-decoration: none">
-              Términos de uso</a
+
+          <p style="color: #d0d6d6; text-align: left">
+            <router-link
+              to="/termino_de_uso"
+              class="text-white"
+              style="text-decoration: none"
             >
+              Términos de uso
+            </router-link>
           </p>
           <!--
           <p style="text-align: left">

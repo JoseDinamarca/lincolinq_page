@@ -5,6 +5,10 @@ import ApoyoPymes from "../views/ApoyoPymes.vue"
 import Contactanos from "../views/Contactanos.vue"
 import SobreNosotros from "../views/SobreNosotros.vue"
 import PreguntasFrecuentes from "../views/PreguntasFrecuentes.vue"
+import Post from "../views/post.vue"
+import PoliticasDePrivacidad from "../views/PoliticasDePrivacidad.vue"
+import TerminosDeUso from "../views/TerminosDeUso.vue"
+
 
 const routes = [
   {
@@ -36,6 +40,21 @@ const routes = [
     path: "/preguntas_frecuentes",
     name: "preguntasfrecuentes",
     component: PreguntasFrecuentes,
+  },
+  {
+    path: "/post",
+    name: "post",
+    component: Post,
+  },
+  {
+    path: "/politicas_de_privacidad",
+    name: "politicas_de_privacidad",
+    component: PoliticasDePrivacidad,
+  },
+  {
+    path: "/termino_de_uso",
+    name: "termino_de_uso",
+    component: TerminosDeUso,
   },
   {
     path: "/:pathMatch(.*)*",
