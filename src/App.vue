@@ -2,8 +2,15 @@
   <main>
     <Header />
 
-    <router-view v-slot="{ Component, route }">
-      <transition name="page-slide" mode="out-in">
+    <loading-screen v-if="isLoading"></loading-screen>
+    <router-view
+      v-if="!isLoading"
+      v-slot="{ Component, route }"
+    >
+      <transition
+        name="page-slide"
+        mode="out-in"
+      >
         <div :key="route.name">
           <component :is="Component"></component>
         </div>
@@ -51,6 +58,7 @@ import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
 import SobreNosotrosInicio from "./components/SobreNosotrosInicio.vue";
 import ServicioInicio from "./components/ServicioInicio.vue";
+import LoadingScreen from "./components/LoadingScreen.vue";
 
 export default {
   components: {
@@ -58,6 +66,17 @@ export default {
     Footer,
     SobreNosotrosInicio,
     ServicioInicio,
+    LoadingScreen,
+  },
+  data() {
+    return {
+      isLoading: true,
+    };
+  },
+  mounted() {
+    setTimeout(() => {
+      this.isLoading = false;
+    }, 500);
   },
 };
 </script>
