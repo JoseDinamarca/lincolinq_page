@@ -9,15 +9,23 @@
   >
     <div class="container access">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-        <li class="breadcrumb-item active" aria-current="page">
+        <li class="breadcrumb-item">
+          <router-link to="/"> Inicio </router-link>
+        </li>
+        <li
+          class="breadcrumb-item active"
+          aria-current="page"
+        >
           Apoyo a PYMES
         </li>
       </ol>
     </div>
   </nav>
 
-  <div class="section" style="padding: 4.5rem 0">
+  <div
+    class="section"
+    style="padding: 4.5rem 0"
+  >
     <div class="container">
       <div class="row"></div>
     </div>
@@ -33,7 +41,7 @@
           <p class="apoyopyme-description">
             En Dev&Pro nos comprometemos a dar impulso a los proyectos que se
             desean realizar dentro de la región del Maule, con la intención de
-            que esta continue su desarrollo. De igual forma, en Dev&Pro nos
+            que esta continúe su desarrollo. De igual forma, en Dev&Pro nos
             comprometemos a dar facilidades a PYMES, con la intención de ser de
             alguna manera una ayuda para su crecimiento dentro de su rubro.
             Finalmente, nos comprometemos a buscar y presentarle a nuestros
@@ -64,7 +72,10 @@
             >
           </p>
         </div>
-        <div class="row" style="padding-top: 50px"></div>
+        <div
+          class="row"
+          style="padding-top: 50px"
+        ></div>
       </div>
     </div>
 
@@ -74,7 +85,7 @@
     <a
       >En Dev&Pro nos comprometemos a dar impulso a los proyectos que se desean
       realizar dentro de la región del Maule, con la intención de que esta
-      continue su desarrollo.</a
+      continúe su desarrollo.</a
     ><br />
     <h1>Impulso a PYMES</h1>
     <a

@@ -60,7 +60,7 @@
           </div>
           <h3 class="service-heading">Chat online</h3>
           <p class="service-p">
-            Podrás estar en contacto con tus clientes de manera más comoda,
+            Podrás estar en contacto con tus clientes de manera más cómoda,
             rápida y segura, tanto para ti, como para tus propios clientes.
           </p>
         </div>
@@ -95,7 +95,10 @@
         <div class="row justify-content-md-center">
           <div class="col-12 col-md-10 col-lg-8 col-xl-8 text-center">
             <button class="btn service-button-inicio">
-              <router-link to="/servicios" class="nav-link navbar-element">
+              <router-link
+                to="/servicios"
+                class="nav-link navbar-element"
+              >
                 Más Servicios <i class="bi bi-arrow-right"></i>
               </router-link>
             </button>

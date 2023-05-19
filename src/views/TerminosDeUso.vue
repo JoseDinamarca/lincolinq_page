@@ -9,8 +9,13 @@
   >
     <div class="container access">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-        <li class="breadcrumb-item active" aria-current="page">
+        <li class="breadcrumb-item">
+          <router-link to="/"> Inicio </router-link>
+        </li>
+        <li
+          class="breadcrumb-item active"
+          aria-current="page"
+        >
           Término de uso
         </li>
       </ol>
@@ -120,7 +125,10 @@
           <li class="parrafopolitica">
             <strong>Sitio web:</strong> el sitio de Dev&Pro, al que se puede
             acceder a través de esta URL:
-            <router-link to="/" style="text-decoration: solid">
+            <router-link
+              to="/"
+              style="text-decoration: solid"
+            >
               www.consultoradevpro.cl</router-link
             >.
           </li>

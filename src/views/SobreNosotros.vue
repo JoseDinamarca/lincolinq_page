@@ -9,8 +9,13 @@
   >
     <div class="container access">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-        <li class="breadcrumb-item active" aria-current="page">
+        <li class="breadcrumb-item">
+          <router-link to="/"> Inicio </router-link>
+        </li>
+        <li
+          class="breadcrumb-item active"
+          aria-current="page"
+        >
           Sobre nosotros
         </li>
       </ol>
@@ -52,7 +57,10 @@
             Comprendemos las dificultades que se presentan a las pymes por eso
             podemos ayudarte a obtener presencia digital.
           </p>
-          <div class="accordion accordion-flush" id="accordion-about">
+          <div
+            class="accordion accordion-flush"
+            id="accordion-about"
+          >
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button
@@ -74,7 +82,7 @@
                 <div class="accordion-body">
                   Dev&Pro es una consultora informática conformada por
                   profesionales del área que buscan entregar soluciones
-                  informáticas manofacturadas a la medida de las necesidades de
+                  informáticas manufacturadas a la medida de las necesidades de
                   sus clientes. Localizada en la región del Maule, esta busca
                   potenciar a los diversos emprendimientos que puedan ser
                   beneficiados con un sistema informático, ya sea de escritorio

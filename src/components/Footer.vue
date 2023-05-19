@@ -13,7 +13,10 @@
             class="mb-4"
             style="color: #0d6efd; text-align: left; font-weight: bolder"
           >
-            <router-link to="/" class="navbar-brand logo">
+            <router-link
+              to="/"
+              class="navbar-brand logo"
+            >
               <img
                 style=""
                 class="img-fluid d-inline-block align-text-top"
@@ -26,7 +29,7 @@
 
           <p style="color: #d0d6d6; text-align: left">
             Consultora informática conformada por profesionales del área que
-            buscan entregar soluciones informáticas manofacturadas a la medida
+            buscan entregar soluciones informáticas manufacturadas a la medida
             de las necesidades de sus clientes.
           </p>
         </div>
@@ -39,8 +42,11 @@
             Sitio Web
           </h4>
           <p style="color: #d0d6d6; text-align: left">
-            <a href="#" class="text-white" style="text-decoration: none"
-              >Inicio</a
+            <router-link
+              to="/"
+              class="text-white"
+              style="text-decoration: none"
+              >Inicio</router-link
             >
           </p>
           <p style="color: #d0d6d6; text-align: left">
@@ -127,7 +133,10 @@
           >
             Contacto
           </h4>
-          <p class="text-white" style="text-align: left; margin-bottom: 2px">
+          <p
+            class="text-white"
+            style="text-align: left; margin-bottom: 2px"
+          >
             <a
               href="https://api.whatsapp.com/send/?phone=56926493333"
               target="_blank"
@@ -135,7 +144,10 @@
               ><i class="bi bi-whatsapp"></i> +56 9 2649 3333
             </a>
           </p>
-          <p class="text-white" style="text-align: left; margin-bottom: 2px">
+          <p
+            class="text-white"
+            style="text-align: left; margin-bottom: 2px"
+          >
             <a
               href="https://api.whatsapp.com/send/?phone=56926459314"
               target="_blank"
@@ -143,7 +155,10 @@
               ><i class="bi bi-whatsapp"></i> +56 9 2645 9314
             </a>
           </p>
-          <p class="text-white" style="text-align: left">
+          <p
+            class="text-white"
+            style="text-align: left"
+          >
             <a
               href="https://api.whatsapp.com/send/?phone=56991843822"
               target="_blank"
@@ -151,18 +166,27 @@
               ><i class="bi bi-whatsapp"></i> +56 9 9184 3822
             </a>
           </p>
-          <p class="text-white" style="text-align: left">
+          <p
+            class="text-white"
+            style="text-align: left"
+          >
             <i class="bi bi-envelope-at-fill"></i> contacto@consultoradevpro.cl
           </p>
         </div>
       </div>
-      <hr class="mb-4" style="border: 1px solid #ffffff" />
+      <hr
+        class="mb-4"
+        style="border: 1px solid #ffffff"
+      />
       <div class="row align-items-center">
         <div class="col-md-7 col-lg-8">
           <p style="color: #d0d6d6">
             Copyright <i class="bi bi-c-circle"></i>2023, Todos los derechos
             reservados.
-            <a href="#" style="text-decoration: none">
+            <a
+              href="#"
+              style="text-decoration: none"
+            >
               <strong>Dev&Pro Ltda</strong>
             </a>
           </p>
