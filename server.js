@@ -8,7 +8,7 @@ const app = express();
 
 app.use(cors()).use(bodyParser.json());
 
-app.post("/contact", (req, res) => {
+app.post("/api/contact", (req, res) => {
   const { name, phone, useremail, message, email } = req.body;
 
   // Envía correo a través de nodemailer, se debe verificar el gestor y se usan las variables desde el archivo .env

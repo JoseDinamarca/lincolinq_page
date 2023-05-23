@@ -317,7 +317,7 @@ export default {
         message: this.message,
         email: "contacto@consultoradevpro.cl",
       };
-      fetch(process.env.VUE_APP_ROOT_API + "/contact", {
+      fetch(process.env.VUE_APP_ROOT_API + "/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
