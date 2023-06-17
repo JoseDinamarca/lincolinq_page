@@ -5,7 +5,7 @@
   <nav
     aria-label="breadcrumb "
     class="positioning"
-    style="--bs-breadcrumb-divider: '»'"
+    style="background-color: rgba(22, 201, 22, 0.815) ;--bs-breadcrumb-divider: '»'"
   >
     <div class="container access">
       <ol class="breadcrumb">
@@ -32,7 +32,6 @@
             class="section-heading"
             style="opacity: 1"
           >
-            <div class="section-subheading">Te esperamos</div>
             <h1 class="title-contact">Contáctanos</h1>
           </div>
         </header>
@@ -44,36 +43,7 @@
           <div class="contact-info section-bg animate-item">
             <h3 class="title-contact2">Información</h3>
             <ul class="contact-list">
-              <li>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="1em"
-                  height="1em"
-                  fill="currentColor"
-                  class="bi bi-phone boostrap-icons md-22"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"
-                  />
-                  <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
-                </svg>
-                <div>
-                  <a
-                    class="formingHrefTel"
-                    href="tel:+56 9 2649 3333"
-                    >+56 9 2649 3333</a
-                  ><a
-                    class="formingHrefTel"
-                    href="tel:+56 9 2645 9314"
-                    >+56 9 2645 9314</a
-                  ><a
-                    class="formingHrefTel"
-                    href="tel:+56 9 9184 3822"
-                    >+56 9 9184 3822</a
-                  >
-                </div>
-              </li>
+              
               <li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -92,32 +62,12 @@
                 </svg>
                 <div>
                   <a
-                    href="mailto:contacto@consultoradevpro.cl"
+                    href="mailto:ggslincolinqk@gmail.com"
                     target="_self"
                     rel="noopener"
                     class="link-contacto"
-                    >contacto@consultoradevpro.cl</a
+                    >ggslincolinqk@gmail.com</a
                   >
-                </div>
-              </li>
-              <li>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-clock boostrap-icons md-22"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"
-                  />
-                  <path
-                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
-                  />
-                </svg>
-                <div>
-                  <a class="link-contacto"> Lun - Vie: 9:00 - 18:00 hrs. </a>
                 </div>
               </li>
             </ul>
@@ -403,7 +353,7 @@ export default {
 .contact-info {
   position: relative;
   padding: 2rem 1.25rem;
-  background-color: #f0f4f8;
+  background-color: #57f379ea;
   border-radius: 10px;
   height: 100%;
 }

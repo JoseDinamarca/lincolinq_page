@@ -4,6 +4,7 @@
 
     <loading-screen v-if="isLoading"></loading-screen>
     <router-view
+    class="app-container"
       v-if="!isLoading"
       v-slot="{ Component, route }"
     >
@@ -17,7 +18,7 @@
       </transition>
     </router-view>
 
-    <Footer />
+    <Footer/>
   </main>
 </template>
 
@@ -27,6 +28,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.app-container {
+    background-color: #b3f7b3; /* Reemplaza con el color de fondo deseado */
+  }
 
 #nav {
   padding: 30px;

@@ -115,7 +115,7 @@
 }
 
 .img-pymes {
-  background-image: url("../img/carousel/carousel-1.jpg") !important;
+  background-image: url("../img/carousel/carousel-1.png") !important;
   border-radius: 10px;
   height: 635px;
   background-repeat: no-repeat;

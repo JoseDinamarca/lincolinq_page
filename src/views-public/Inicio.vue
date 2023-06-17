@@ -22,8 +22,7 @@ import ServicioInicio from "../components/ServicioInicio.vue";
 export default {
   components: {
     Carousel,
-    SobreNosotrosInicio,
-    ServicioInicio,
+
   },
 };
 </script>
