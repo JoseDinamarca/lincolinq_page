@@ -1,13 +1,15 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-import Inicio from "../views/Inicio.vue"
-import Servicios from "../views/Servicios.vue"
-import ApoyoPymes from "../views/ApoyoPymes.vue"
-import Contactanos from "../views/Contactanos.vue"
-import SobreNosotros from "../views/SobreNosotros.vue"
-import PreguntasFrecuentes from "../views/PreguntasFrecuentes.vue"
-import Post from "../views/post.vue"
-import PoliticasDePrivacidad from "../views/PoliticasDePrivacidad.vue"
-import TerminosDeUso from "../views/TerminosDeUso.vue"
+import Inicio from "../views-public/Inicio.vue"
+import Servicios from "../views-public/Servicios.vue"
+import ApoyoPymes from "../views-public/ApoyoPymes.vue"
+import Contactanos from "../views-public/Contactanos.vue"
+import SobreNosotros from "../views-public/SobreNosotros.vue"
+import PreguntasFrecuentes from "../views-public/PreguntasFrecuentes.vue"
+import Post from "../views-public/post.vue"
+import PoliticasDePrivacidad from "../views-public/PoliticasDePrivacidad.vue"
+import TerminosDeUso from "../views-public/TerminosDeUso.vue"
+
+import Login from "../views-admin/login.vue"
 
 
 const routes = [
@@ -55,6 +57,11 @@ const routes = [
     path: "/termino_de_uso",
     name: "termino_de_uso",
     component: TerminosDeUso,
+  },
+  {
+    path: "/login",
+    name: "login",
+    component: Login,
   },
   {
     path: "/:pathMatch(.*)*",
